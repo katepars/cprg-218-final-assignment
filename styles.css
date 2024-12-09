@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    background-color: #AC3723;
+    color: #D6996D;
+
+}
+
+.header-img {
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 80px;
+    width: 80px
+}
+
+
+/* Header Styles */
+header {
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    background: #ffffff;
+    color: #000000;
+    padding: 20px 0;
+    text-align: center; 
+    align-items: center;
+    align-content: center;
+   /* position:fixed; */
+}
+
+
+
+nav {
+    background: #85301C;
+    font-size: 13pt;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container{
+    align-content: left;
+    display:inline-flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.container-img{
+    align-items: right;
+}
+
+video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.contactinfo{
+    align-content: left;
+    display: inline-block;
+}
+
+.image{
+    float: right;
+    align-items: center;
+    display: inline-flex;
+}
+
+#legraphic{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.banffgraphic{
+    padding-right: 5%;
+    transition: 0.3s ease;
+}
+.banffgraphic:hover{
+    transform: scale(1.3)
+}
+
+
+.coffee{
+    padding-left: 5%;
+    transition: 0.3s ease;
+}
+.coffee:hover{
+    transform: scale(1.2);
+}
+
+#poop{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+section{
+    box-sizing: border-box;
+    border: #AC3723;
+    padding: 60px;
+    padding-top: 50px;
+    background-color:#f4e7e7;
+    color: #ffffff;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 1px;
+    border-radius: 5px;
+   
+}
+
+
+.text {
+    margin-right: 15%;
+    padding: 0%;
+    display: inline-block;
+
+}
+
+.responsive-img{
+    width: 100%;
+    height: 20;
+}
+
+
+main {
+    color: #ffffff;
+}
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px; /* Optional: adds rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: adds shadow */
+}
+
+p {
+    font-size: 13pt;
+    color: #000000;
+}
+
+h1 { /*katelyn parsons portfolio heading */
+    text-align: left;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #1c2026;
+}
+
+h2 { /*section headers homepage*/
+    
+    font-size: 25pt;
+    color: #85301C;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 3%;
+    
+    
+}
+
+h3 { /*katelyn parsons*/
+    color: #D6996D;
+    font-size: 30pt;
+    text-align: center;
+   
+}
+
+h4 { /*list of skills */
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15pt;
+    background-color: #AC3723;
+    color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    
+}
+
+h5{
+    text-align: center;
+    font-size: 17pt;
+    background-color: #AC3723;
+    color: #ffffff;
+    padding-top: 50px;
+}
+
+h6 { /*projectpage heading*/
+    text-align: left;
+    font-size: 30pt;
+    font-family: "Raleway", sans-serif;
+    color: #85301C;
+}
+
+.categories{
+    padding: 0%;
+    width: 100%;
+    margin-left: 0;
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.category {
+    position: relative;
+    width: 50%;
+  }
+  
+  /* Make the image responsive */
+  .category img {
+    width: 30%;
+    height: auto;
+    padding: 10px;
+    border: #fff; 
+    border-radius: 5px;
+  }
+
+.artistrow img{
+    margin-right: 100px;
+    margin-left: 30px;
+} 
+.tourismrow img{
+    margin-right: 100px;
+    margin-left: 30px;
+}
+
+
+
+/*the images in the portfolio*/
+.posty{
+    transition: transform 0.3s ease;
+}
+.posty:hover{
+    transform: scale(1.5); 
+}
+.stick{
+    transition: 0.3s ease;
+}
+.stick:hover{
+    transform: scale(1.5);
+}
+.chris{
+    transition: transform 0.3s ease;
+}
+.chris:hover{
+    transform: scale(1.5);
+}
+.arianna{
+    transition: transform 0.3s ease;
+}
+.arianna:hover{
+    transform: scale(1.5);
+}
+.cowboy{
+    transition: 0.3s ease;
+}
+.cowboy:hover{
+    transform: scale(1.5);
+}
+.banff{
+    transition: 0.3s ease;
+}
+.banff:hover{
+    transform: scale(1.5);
+}
+.city{
+    transition: 0.3s ease;
+}
+.city:hover{
+    transform: scale(1.5);
+}
+.skier{
+    transition: 0.3s ease;
+}
+.skier:hover{
+    transform: scale(1.5);
+}
+
+.projectbtn{
+    padding: 4px;
+    background-color:#f4e7e7 ;
+    border-color: 0;
+    border-width: 2px;
+}
+ .slide{
+    height: auto;
+    width: 300px;
+    transition: 0.3 ease;
+    margin-right: 100px;
+    margin-left: 30px;
+ }
+ .slide:hover{
+    transform: scale(1.2);
+ }
+
+  /* Style the button and place it in the middle of the container/image */
+  .category .btn {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    transform: translate(-10%, -10%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .category .btn:hover {
+    background-color: black;
+  }
+
+
+ 
+
+ .footer-container{
+    padding: 10%;
+    display: block;
+    background-color: #AC3723;
+ }
+
+
+  @media screen and (max-width: 600px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .header-img {
+        flex-direction: column-reverse;
+    }
+    img.nice {
+        height: 380px;
+        width: 560px;
+
+}
+    div.text{
+    height: 400px;
+    width: 450px;
+}
+    h3{
+        padding-left: 12%;
+    }
+
+    .coffee{
+        height: 200px;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+    .banffgraphic{
+        height: 200px;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+   
+    #text{
+        text-align: left;
+        font-size: 8pt;
+        height: 200px;
+        width: 200px;
+    }
+    .image{
+        height: 100px;
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+  }
+
+  @media  screen and (max-width:900px){
+    img.nice {
+        height: 430px;
+        width: 600px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .header-img {
+        flex-direction: column-reverse; 
+  }
+}
