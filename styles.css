@@ -360,8 +360,12 @@ h6 { /*projectpage heading*/
     img.nice {
         height: 380px;
         width: 560px;
-
 }
+
+    nav {
+        display: flex;
+    }
+    
     div.text{
     height: 400px;
     width: 450px;
