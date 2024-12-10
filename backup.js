@@ -7,3 +7,8 @@ button.addEventListener('click', function() {
     window.location.href = 'project.html'; // Replace with the relative path to your page
 });
 
+
+document.getElementById('menu-toggle').addEventListener('click', function() {
+    const menu = document.getElementById('menu');
+    menu.classList.toggle('show');
+});
