@@ -67,7 +67,7 @@ nav li a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 60px;
+    gap: 5px;
 }
 .nav-link{
     transition: 0.7s ease;
@@ -166,7 +166,7 @@ section{
 
 .responsive-img{
     width: 100%;
-    height: 20px;
+    height: 500px;
 }
 
 
@@ -245,22 +245,21 @@ h6 { /*projectpage heading*/
     color: #85301C;
 }
 
-.categories{
-    padding: 0%;
-    width: 100%;
-    margin-left: 0;
-    display: flex;
-}
 
-/* Container needed to position the button. Adjust the width as needed */
-.category {
-    position: relative;
-    width: 50%;
+
+.categories {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+    margin: 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
   }
   
-  /* Make the image responsive */
-  .category img {
-    width: 50%;
+  .categories img {
+    width: 250px;
     height: auto;
     padding: 10px;
     border: #fff; 
