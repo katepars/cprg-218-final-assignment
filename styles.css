@@ -446,7 +446,7 @@ h6 { /*projectpage heading*/
 
     .nav-menu{
         position: fixed;
-        left: -0%;
+        left: -100%;
         top: 70px;
         gap: 0;
         flex-direction: column;
