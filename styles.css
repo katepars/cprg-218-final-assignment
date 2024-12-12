@@ -94,7 +94,10 @@ nav li a {
 
 
 
-
+.kateco{
+    height: auto;
+    width: 100px;
+}
 
 
 
@@ -252,12 +255,12 @@ h6 { /*projectpage heading*/
 /* Container needed to position the button. Adjust the width as needed */
 .category {
     position: relative;
-    width: 10%;
+    width: 50%;
   }
   
   /* Make the image responsive */
   .category img {
-    width: 30%;
+    width: 50%;
     height: auto;
     padding: 10px;
     border: #fff; 
