@@ -246,12 +246,13 @@ h6 { /*projectpage heading*/
     padding: 0%;
     width: 100%;
     margin-left: 0;
+    display: flex;
 }
 
 /* Container needed to position the button. Adjust the width as needed */
 .category {
     position: relative;
-    width: 50%;
+    width: 10%;
   }
   
   /* Make the image responsive */
@@ -441,7 +442,7 @@ h6 { /*projectpage heading*/
         transform: translateY(8px) rotate(45deg);
     }
     .hamburger.active .bar:nth-child(3){
-        transform: translateY(-2px) rotate(-45deg);
+        transform: translateY(-8px) rotate(-45deg);
     }
 
     .nav-menu{
